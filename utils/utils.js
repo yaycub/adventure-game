@@ -88,3 +88,19 @@ export const choiceCreator = (choice) => {
 
     return choiceLabel;
 };
+
+export const findById = (arr, id) => {
+    arr.forEach(quest => {
+        if (quest.id === id){
+            return quest;
+        }
+    });
+
+    return null;
+};
+
+export const scoreCalc = (choice, questId, user) => {
+    user.relief += choice.relief;
+    user.gold += choice.gold;
+    user.completed[questId] = true;
+};
