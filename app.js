@@ -10,5 +10,5 @@ charCustomization.addEventListener('submit', function(event) {
 
     saveUser(char);
 
-
+    window.location = 'map';
 });
