@@ -1,0 +1,46 @@
+html{
+    background-color: bisque;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    height: 50px;
+    width: 175px;
+    background-color: black;
+    color: bisque;
+    font-size: 13px;
+    border-radius: 2px;
+    border: 2px solid black;
+    margin: 5px;
+}
