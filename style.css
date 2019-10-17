@@ -9,8 +9,12 @@ header{
     align-items: center;
 }
 
-h3{
+h2{
     text-align: center;
+}
+
+#bathroom-desc{
+    text-align: justify;
 }
 
 .general{
@@ -41,7 +45,7 @@ button{
     background-color: black;
     color: bisque;
     font-size: 13px;
-    border-radius: 2px;
+    border-radius: 5px;
     border: 5px solid black;
     margin: 15px;
 }
