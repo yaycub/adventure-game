@@ -71,3 +71,20 @@ export const createQuestCompleted = (quest) => {
     span.textContent = quest.title;
     return span;
 };
+
+export const choiceCreator = (choice) => {
+    const choiceLabel = document.createElement('label');
+
+    const choiceRadio = document.createElement('input');
+    choiceRadio.type = 'radio';
+    choiceRadio.name = 'choice';
+    choiceRadio.required = true;
+    choiceRadio.value = choice.id;
+    choiceLabel.appendChild(choiceRadio);
+
+    const questDescription = document.createElement('span');
+    questDescription.textContent = choice.description;
+    choiceLabel.appendChild(questDescription);
+
+    return choiceLabel;
+};
