@@ -2,15 +2,15 @@ html, body{
     height: 100%;
     width: 0 auto;
     font-family: 'Roboto', sans-serif;
-    background-color: bisque;
-    color: black;
+    background-image: url('../assets/map.jpg');
+    color: bisque;
 }
 
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 5px solid black;
+    border-bottom: 5px solid bisque;
     width: 100%;
     height: 50px;
 }
@@ -27,6 +27,10 @@ h3{
 
 img{
     height: 350px;
-    border: 5px solid black;
+    border: 5px solid bisque;
     border-radius: 5px;
+}
+
+img:hover{
+    border: 5px solid white;
 }

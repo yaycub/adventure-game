@@ -69,4 +69,4 @@ export const createQuestCompleted = (quest) => {
 
     span.textContent = quest.title;
     return span;
-}
+};
