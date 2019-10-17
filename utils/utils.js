@@ -54,6 +54,7 @@ export const createQuestSelection = (quest) => {
     const img = document.createElement('img');
 
     img.src = quest.image;
+    img.className = 'quest-img';
 
     link.href = '../quest/?id=' + quest.id;
 

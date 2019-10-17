@@ -1,6 +1,6 @@
 html{
     background-color: bisque;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Permanent Marker', cursive;
 }
 
 header{
@@ -35,12 +35,18 @@ form{
 }
 
 button{
+    font-family: 'Permanent Marker', cursive;
     height: 50px;
     width: 175px;
     background-color: black;
     color: bisque;
     font-size: 13px;
     border-radius: 2px;
-    border: 2px solid black;
-    margin: 5px;
+    border: 5px solid black;
+    margin: 15px;
+}
+
+button:hover{
+    background-color: bisque;
+    color: black;
 }

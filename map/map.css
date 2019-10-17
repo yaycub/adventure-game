@@ -1,7 +1,7 @@
 html, body{
     height: 100%;
     width: 0 auto;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Permanent Marker', cursive;
     background-image: url('../assets/map.jpg');
     color: bisque;
 }
@@ -12,7 +12,7 @@ header {
     align-items: center;
     border-bottom: 5px solid bisque;
     width: 100%;
-    height: 50px;
+    height: 85px;
 }
 
 #quest-data{
@@ -25,12 +25,12 @@ h3{
     text-align: center;
 }
 
-img{
+.quest-img{
     height: 350px;
     border: 5px solid bisque;
     border-radius: 5px;
 }
 
-img:hover{
-    border: 5px solid white;
+.quest-img:hover{
+    border: 5px solid black;
 }
