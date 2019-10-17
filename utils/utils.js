@@ -36,7 +36,6 @@ export const loadChar = () => {
 
     charName.textContent = character.name;
     charClass.textContent = character.class;
-    charRelief.textContent = character.relief;
     charGold.textContent = character.gold;
-    
+    charRelief.textContent = character.relief;
 }
