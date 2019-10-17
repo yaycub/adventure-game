@@ -10,7 +10,43 @@
 </head>
 
 <body>
-
+    <header>
+        <h1>Bathroom Quest</h1>
+    </header>
+    
+    <main> 
+        <h2>
+            Start Here, Tourist!
+        </h2>
+        <form id="user-sign-up">
+            <p class="text-prompt">
+                <label for="name">Your Tourist's Name:</label>
+                <input id="name" name="name" required>
+            </p>
+            <fieldset>
+                <legend>Pick Your Tourist:</legend>
+                <p id="avatars">
+                    <label>
+                        <input type="radio" name="race" required value="wizard">
+                        Yuppie
+                    </label>
+                    <label>
+                        <input type="radio" name="race" required value="elf">
+                        Tech Bro
+                    </label>
+                    <label>
+                        <input type="radio" name="race" required value="cleric">
+                        Photographer
+                    </label>
+                    <label>
+                        <input type="radio" name="race" required value="ranger">
+                        Foodie
+                    </label>
+                </p>
+            </fieldset>
+            <button>Start Bathroom Quest</button>
+        </form>
+    </main>
     <script type="module" src="app.js"></script>
 </body>
 
