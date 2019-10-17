@@ -35,7 +35,7 @@ export const loadChar = () => {
     const character = getUser();
 
     if (!character) {
-        window.location = './';
+        window.location = '../';
     }
 
     charName.textContent = character.name;
@@ -48,3 +48,25 @@ export const loadChar = () => {
         charRelief.textContent = character.relief;
     }
 };
+
+export const createQuestSelection = (quest) => {
+    const link = document.createElement('a');
+    const img = document.createElement('img');
+
+    img.src = quest.image;
+
+    link.href = '../quest/?id=' + quest.id;
+
+    link.appendChild(img);
+
+    return link;
+};
+
+export const createQuestCompleted = (quest) => {
+    const span = document.createElement('span');
+    span.classList.add('quest');
+    span.classList.add('completed');
+
+    span.textContent = quest.title;
+    return span;
+}

@@ -1,6 +1,7 @@
 const convenientStore = {
     id: 'convenient-store',
     title: 'Welcom to a strangely quiet convenient store!',
+    image: '../assets/convenientstore.jpg',
     description: `
         You walk into a convenient store and are searching for a toilet sign. The clerk is tapping his fingers on the counter waiting for you to approach the counter.
     `,
@@ -26,6 +27,7 @@ const convenientStore = {
 const departmentStore = {
     id: 'department',
     title: 'Welcom to a very large Department Store',
+    image: '../assets/departmentstore.jpg',
     description: `
         Just to reiterate, this department store is quite large. It seems like a maze of clothing racks and shoes. You see hallways at the edges of the room, that could lead to a restroom, but probably not. 
     `,
@@ -51,6 +53,7 @@ const departmentStore = {
 const residentialHouse = {
     id: 'house',
     title: 'Approach a Strangers Home',
+    image: '../assets/house.jpg',
     description: `
         You approach a Stranger's home with no idea what you plan to do once you arrive. The house is pretty plain and looks like every other house in the neighborhood. It's somewhat eerie how similar each house is and you begin to wonder if you walked onto the set of 'Edward Scissorhands'
     `,
