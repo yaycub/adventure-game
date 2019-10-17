@@ -1,4 +1,4 @@
-import { getUser, loadChar } from '../utils/utils.js';
+import { getUser, loadChar, isRelieved } from '../utils/utils.js';
 
 loadChar();
 

@@ -8,7 +8,11 @@ export const getUser = () => {
     if (!stringData) return null;
     const parsedUser = JSON.parse(stringData);
     return parsedUser;
-}
+};
+
+export const isRelieved = (user) => {
+    return user.relief >= 1;
+};
 
 export const createChar = (char) => {
     const character = {
@@ -37,5 +41,10 @@ export const loadChar = () => {
     charName.textContent = character.name;
     charClass.textContent = character.class;
     charGold.textContent = character.gold;
-    charRelief.textContent = character.relief;
-}
+    
+    if (isRelieved(character)) {
+        charRelief.textContent = 'RELIEVED';
+    } else {
+        charRelief.textContent = character.relief;
+    }
+};
