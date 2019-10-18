@@ -68,7 +68,6 @@ export const createQuestCompleted = (quest) => {
     span.classList.add('quest');
     span.classList.add('completed');
 
-    span.textContent = quest.title;
     return span;
 };
 
@@ -90,11 +89,12 @@ export const choiceCreator = (choice) => {
 };
 
 export const findById = (arr, id) => {
-    arr.forEach(quest => {
-        if (quest.id === id){
-            return quest;
+    for (let index = 0; index < arr.length; index++) {
+        const item = arr[index];
+        if (item.id === id) {
+            return item;
         }
-    });
+    }
 
     return null;
 };

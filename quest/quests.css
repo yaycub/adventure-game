@@ -5,3 +5,7 @@ html, body{
     background-image: url('../assets/map.jpg');
     color: bisque;
 }
+
+.hidden{
+    display: none;
+}
