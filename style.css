@@ -14,7 +14,16 @@ h2{
 }
 
 #bathroom-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     text-align: justify;
+}
+
+span{
+    font-size: 25px;
+    margin: 10px;
 }
 
 .general{
