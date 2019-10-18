@@ -63,7 +63,7 @@ export const createQuestSelection = (quest) => {
     return link;
 };
 
-export const createQuestCompleted = (quest) => {
+export const createQuestCompleted = () => {
     const span = document.createElement('span');
     span.classList.add('quest');
     span.classList.add('completed');

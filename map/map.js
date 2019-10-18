@@ -17,7 +17,7 @@ for (let i = 0; i < quests.length; i++){
     let display = null;
     
     if (user.completed[quest.id]) {
-        display = createQuestCompleted(quest);
+        display = createQuestCompleted();
     } else {
         display = createQuestSelection(quest);
     }
