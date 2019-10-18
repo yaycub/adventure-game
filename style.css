@@ -26,6 +26,13 @@ span{
     margin: 10px;
 }
 
+#name{
+    height: 17px;
+    width: 246px;
+    border: none;
+    border-radius: 5px;
+}
+
 .general{
     display: flex;
     justify-content: center;
