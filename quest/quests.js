@@ -7,9 +7,9 @@ const query = new URLSearchParams(window.location.search);
 const questId = query.get('id');
 const questSelect = findById(quests, questId);
 
-// if (!questSelect) {
-//     window.location = '../map';
-// }
+if (!questSelect) {
+    window.location = '../map';
+}
 
 const questTitle = document.getElementById('title');
 const questImage = document.getElementById('image');
