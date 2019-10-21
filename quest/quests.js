@@ -41,6 +41,7 @@ questForm.addEventListener('submit', function(event) {
     saveUser(user);
 
     questForm.classList.add('hidden');
+    questDescription.classList.add('hidden');
     questResult.classList.remove('hidden');
     questResultDescription.textContent = choice.result;
 

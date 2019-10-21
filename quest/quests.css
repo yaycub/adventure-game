@@ -13,9 +13,7 @@ header{
     border-bottom: 5px solid black;
 }
 
-.hidden{
-    display: none;
-}
+
 
 h2{
     margin: 0 auto;
@@ -43,7 +41,7 @@ article{
     padding-left: 45px;
 }
 
-#description{
+#description, #result-description{
     width: 960px;
     background-color: darkorange;
     color: black;
@@ -52,10 +50,7 @@ article{
 }
 
 #quest-form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    border-left: 2px solid limegreen;
 }
 
 #choices{
@@ -71,12 +66,33 @@ button{
     background-color: limegreen;
     color: black;
     font-family: 'Permanent Marker', cursive;
-    border: 2px dotted black;
     font-size: 13px;
+    margin: 0 auto;
+    outline: none;
+    border: none;
 }
 
 button:hover{
-    border: 2px solid limegreen;
     background-color: black;
     color: limegreen;
+    border: none;
+    outline:none
+}
+
+a{
+    background-color: limegreen;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-left: -5px;
+}
+
+a:hover{
+    background-color: black;
+    color: limegreen;
+}
+
+.hidden{
+    display: none;
 }
