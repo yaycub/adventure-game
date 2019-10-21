@@ -1,0 +1,98 @@
+html, body{
+    height: 100%;
+    width: 0 auto;
+    font-family: 'Permanent Marker', cursive;
+    background-color: bisque;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid black;
+}
+
+
+
+h2{
+    margin: 0 auto;
+    border-bottom: 15px solid darkorange;
+    width: 960px;
+}
+
+#image {
+    width: 500px;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin-bottom: 0 auto;
+}
+
+article{
+    background-color: bisque;
+    color: black;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 10px solid black;
+    margin: auto;
+    padding-left: 45px;
+}
+
+#description, #result-description{
+    width: 960px;
+    background-color: darkorange;
+    color: black;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#quest-form{
+    border-left: 2px solid limegreen;
+}
+
+#choices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5px;
+}
+
+button{
+    width: 150px;
+    background-color: limegreen;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 13px;
+    margin: 0 auto;
+    outline: none;
+    border: none;
+}
+
+button:hover{
+    background-color: black;
+    color: limegreen;
+    border: none;
+    outline:none
+}
+
+a{
+    background-color: limegreen;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    margin-left: -5px;
+}
+
+a:hover{
+    background-color: black;
+    color: limegreen;
+}
+
+.hidden{
+    display: none;
+}

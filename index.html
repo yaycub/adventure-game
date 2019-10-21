@@ -6,11 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <title>Bathroom Quest</title>
 </head>
 
 <body>
-
+    <header>
+        <img src="./assets/logo.png">
+    </header>
+    
+    <div class="general">
+        <main> 
+        <article>
+            <h2>Your Quest:</h2>
+            <section id="bathroom-desc">
+                You are a tourist in a foreign city and you have been adventuring alone. One night you decide to try a restaurant that you have found on Yelp with a perfect review score. You are daring on this day's eve and decide to try the "Super Spicy Bomb Attack" as a test of strength. After you leave the restaurant you need to urgently find a bathroom to relieve yourself. You begin with 15 gold and a relief stat of 0. Get you relief stat to 1 and you win. <h3>NOW CHOOSE YOUR TOURIST!</h3>
+            </section>
+        </article>
+        <form id="user-customization">
+            <p class="text-prompt">
+                <label for="name">Your Tourist's Name:</label>
+                <input id="name" name="name" required>
+            </p>
+            <fieldset>
+                <legend>Pick Your Tourist:</legend>
+                <p id="avatars">
+                    <label>
+                        <input type="radio" name="class" required value="yuppie">
+                        Yuppie
+                    </label>
+                    <label>
+                        <input type="radio" name="class" required value="tech-bro">
+                        Tech Bro
+                    </label>
+                    <label>
+                        <input type="radio" name="class" required value="photographer">
+                        Photographer
+                    </label>
+                    <label>
+                        <input type="radio" name="class" required value="foodie">
+                        Foodie
+                    </label>
+                </p>
+            </fieldset>
+            <button>Start Bathroom Quest</button>
+        </form>
+    </main>
+    </div>
     <script type="module" src="app.js"></script>
 </body>
 

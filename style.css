@@ -1,0 +1,72 @@
+html{
+    background-color: bisque;
+    font-family: 'Permanent Marker', cursive;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    text-align: center;
+}
+
+#bathroom-desc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+}
+
+span{
+    font-size: 25px;
+    margin: 10px;
+}
+
+#name{
+    height: 17px;
+    width: 246px;
+    border: none;
+    border-radius: 5px;
+}
+
+.general{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width: 960px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    font-family: 'Permanent Marker', cursive;
+    height: 50px;
+    width: 175px;
+    background-color: black;
+    color: bisque;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 5px solid black;
+    margin: 15px;
+}
+
+button:hover{
+    background-color: bisque;
+    color: black;
+}
