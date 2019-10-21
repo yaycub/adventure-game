@@ -18,13 +18,13 @@ test('time to test a function', function(assert) {
         choices: [{
             id: 'ask-clerk',
             description: 'Ask the Clerk where the Bathroom is',
-            result: "The clerk responds, 'The bathroom is for customers only. So you can either buy something or get out.' You receive no relief and are forced to exit the store as you are super uncomfortable.",
+            result: 'The clerk responds, "The bathroom is for customers only. So you can either buy something or get out." You receive no relief and are forced to exit the store as you are super uncomfortable.',
             relief: 0,
             gold: 0
         }, {
             id: 'buy-tums',
             description: 'Buy Tums',
-            result: "You search the aisles and buy some Tums thinking that it might provide some relief and purchase them from the clerk. They don't give you any relief because Tums are for indigestion not emergency poops.",
+            result: 'You search the aisles and buy some Tums thinking that it might provide some relief and purchase them from the clerk. They dont give you any relief because Tums are for indigestion not emergency poops.',
             relief: 0,
             gold: -5
         }]
