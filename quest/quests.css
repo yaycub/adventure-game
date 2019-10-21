@@ -17,10 +17,17 @@ header{
     display: none;
 }
 
+h2{
+    margin: 0 auto;
+    border-bottom: 15px solid darkorange;
+    width: 960px;
+}
+
 #image {
-    width: 450px;
-    border: 5px solid darkorange;
+    width: 500px;
+    border: 5px solid black;
     border-radius: 5px;
+    margin-bottom: 0 auto;
 }
 
 article{
@@ -34,4 +41,42 @@ article{
     border-left: 10px solid black;
     margin: auto;
     padding-left: 45px;
+}
+
+#description{
+    width: 960px;
+    background-color: darkorange;
+    color: black;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#quest-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#choices{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 5px;
+}
+
+button{
+    width: 150px;
+    background-color: limegreen;
+    color: black;
+    font-family: 'Permanent Marker', cursive;
+    border: 2px dotted black;
+    font-size: 13px;
+}
+
+button:hover{
+    border: 2px solid limegreen;
+    background-color: black;
+    color: limegreen;
 }
