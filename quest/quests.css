@@ -2,10 +2,36 @@ html, body{
     height: 100%;
     width: 0 auto;
     font-family: 'Permanent Marker', cursive;
-    background-image: url('../assets/map.jpg');
-    color: bisque;
+    background-color: bisque;
+    color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 5px solid black;
 }
 
 .hidden{
     display: none;
+}
+
+#image {
+    width: 450px;
+    border: 5px solid darkorange;
+    border-radius: 5px;
+}
+
+article{
+    background-color: bisque;
+    color: black;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-left: 10px solid black;
+    margin: auto;
+    padding-left: 45px;
 }

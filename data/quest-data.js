@@ -26,7 +26,7 @@ const convenientStore = {
 
 const departmentStore = {
     id: 'department',
-    title: 'Welcom to a very large Department Store',
+    title: 'Welcome to a very large Department Store',
     image: '../assets/departmentstore.jpg',
     description: `
         Just to reiterate, this department store is quite large. It seems like a maze of clothing racks and shoes. You see hallways at the edges of the room, that could lead to a restroom, but probably not. 
